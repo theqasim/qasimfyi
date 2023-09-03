@@ -1,27 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "mons";
+  src: url("../../public/resources/fonts/Montserrat-Bold.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Maison Neue Extended Extra Bold";
+  src: url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.eot");
+  /* IE9*/
+  src: /* IE6-IE8 */
+    url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.svg#Maison Neue Extended Extra Bold")
+      format("svg");
+  /* iOS 4.1- */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* .wave {
+    @keyframes wave {
+        0% {
+            transform: rotate(0deg);
+        }
+        10% {
+            transform: rotate(16deg);
+        }
+        20% {
+            transform: rotate(-6deg);
+        }
+        30% {
+            transform: rotate(16deg);
+        }
+        40% {
+            transform: rotate(-4deg);
+        }
+        50% {
+            transform: rotate(16deg);
+        }
+        60% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    animation: wave 2.1s 0.6s infinite;
+    transform-origin: 75% 75%;
+    display: inline-block;
+} */

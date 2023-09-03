@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import ShowMore from "./ShowMore";
 
+
 function handleClick() {
   const hiddenProjectsDiv = document.getElementById("hidden-projects");
   const showMoreButtonContainer = document.getElementById("button-container");
@@ -24,18 +25,21 @@ const ProjectsList = () => {
         </h1>
         <div className="grid grid-cols-2 gap-4 py-3 max-md:grid-cols-1 md:place-items-center max-sm:grid-cols-1 max-sm:place-items-center mb-4">
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
+            <Image
+              priority
               src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
             <a href="https://github.com/theqasim/AI-Voice" target="_blank">
-              <img
+              <Image
                 src="./resources/assets/newtab.png"
                 height={40}
                 width={40}
                 className="absolute top-3 right-0 mt-1 mr-4"
+                alt="Project Source"
               />
             </a>
 
@@ -78,18 +82,21 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
             <a href="https://github.com/theqasim/AI-Detect" target="_blank">
-              <img
+              <Image
                 src="/resources/assets/newtab.png"
                 height={40}
                 width={40}
                 className="absolute top-3 right-0 mt-1 mr-4"
+                alt="Project Source"
               />
             </a>
 
@@ -131,18 +138,21 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
             <a href="https://youtu.be/zB0Tv9nHeOs" target="_blank">
-              <img
+              <Image
                 src="/resources/assets/newtab.png"
                 height={40}
                 width={40}
                 className="absolute top-3 right-0 mt-1 mr-4 "
+                alt="Project Source"
               />
             </a>
 
@@ -150,7 +160,7 @@ const ProjectsList = () => {
               NFT Discord Application
             </h1>
             <p className="text-sm my-6 mb-2 ml-1 w-10/12 font-semibold">
-              A Discord bot built to retrieve information on NFT's (sales,
+              A Discord bot built to retrieve information on NFT&apos;s (sales,
               listings, floor prices) across a variety of marketplaces. The
               application served over 30,000 users.
             </p>
@@ -174,18 +184,21 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
             <a href="https://github.com/theqasim/howtogym" target="_blank">
-              <img
+              <Image
                 src="/resources/assets/newtab.png"
                 height={40}
                 width={40}
                 className="absolute top-3 right-0 mt-1 mr-4"
+                alt="Project Source"
               />
             </a>
 
@@ -225,21 +238,24 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
             <a
               href="https://github.com/theqasim/calorietracker"
               target="_blank"
             >
-              <img
+              <Image
                 src="/resources/assets/newtab.png"
                 height={40}
                 width={40}
                 className="absolute top-3 right-0 mt-1 mr-4"
+                alt="Project Source"
               />
             </a>
 
@@ -282,18 +298,21 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
             <a href="https://youtu.be/zB0Tv9nHeOs" target="_blank">
-              <img
+              <Image
                 src="/resources/assets/newtab.png"
                 height={40}
                 width={40}
                 className="absolute top-3 right-0 mt-1 mr-4 "
+                alt="Project Source"
               />
             </a>
 
@@ -332,18 +351,21 @@ const ProjectsList = () => {
           className="grid grid-cols-2 gap-4 py-3 max-md:grid-cols-1 md:place-items-center max-sm:grid-cols-1 max-sm:place-items-center mb-4 hidden"
         >
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
             <a href="https://qasim.fyi" target="_blank">
-              <img
+              <Image
                 src="/resources/assets/newtab.png"
                 height={40}
                 width={40}
                 className="absolute top-3 right-0 mt-1 mr-4"
+                alt="Project Source"
               />
             </a>
 
@@ -385,18 +407,21 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
             <a href="https://youtu.be/RKObsJUPObs" target="_blank">
-              <img
+              <Image
                 src="/resources/assets/newtab.png"
                 height={40}
                 width={40}
                 className="absolute top-3 right-0 mt-1 mr-4"
+                alt="Project Source"
               />
             </a>
 
@@ -430,10 +455,12 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
 
@@ -475,10 +502,12 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
 
@@ -489,7 +518,7 @@ const ProjectsList = () => {
               A Prime Hydration tracker that provides real-time notifications to
               the user, alerting them within a fraction of a second when any
               flavor becomes available, and providing a direct checkout URL,
-              enabling the product to be instantly added to the user's basket.
+              enabling the product to be instantly added to the user&apos;s basket.
             </p>
             <div className="grid grid-cols-8 my-5 mb-1 ml-1 font-bold py-3">
               <Image
@@ -511,10 +540,12 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <img
-              src="/resources/assets/folder.png"
+          <Image
+              priority
+              src="./resources/assets/folder.png"
               height={40}
               width={40}
+              alt="folder icon"
               className="mb-4 ml-1 "
             />
 
@@ -524,7 +555,7 @@ const ProjectsList = () => {
             <p className="text-sm my-6 mb-2 ml-1 w-10/12 font-semibold">
               Developed an advanced application that enables users to input a
               search term, and receive a curated list of optimized YouTube video
-              tags, with the aim of enhancing their video's SEO performance,
+              tags, with the aim of enhancing their video&apos;s SEO performance,
               thereby ensuring maximum reach and visibility.{" "}
             </p>
             <div className="grid grid-cols-8 my-5 mb-1 ml-1 font-bold py-3">

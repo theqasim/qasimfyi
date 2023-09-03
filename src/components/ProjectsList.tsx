@@ -20,127 +20,14 @@ const ProjectsList = () => {
       <div>
         <h1 className="text-4xl font-bold mb-4 my-4 text-black mt-8">
           <a className="text-black hover:text-black transition-all duration-500 ease-in-out border-b-4 border-transparent hover:border-black text-black font-maison">
-            Projects
+            Other Projects
           </a>
         </h1>
         <div className="grid grid-cols-2 gap-4 py-3 max-md:grid-cols-1 md:place-items-center max-sm:grid-cols-1 max-sm:place-items-center mb-4">
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-            <Image
-              priority
-              src="./resources/assets/folder.png"
-              height={40}
-              width={40}
-              alt="folder icon"
-              className="mb-4 ml-1 "
-            />
-            <a href="https://github.com/theqasim/AI-Voice" target="_blank">
-              <Image
-                src="./resources/assets/newtab.png"
-                height={40}
-                width={40}
-                className="absolute top-3 right-0 mt-1 mr-4"
-                alt="Project Source"
-              />
-            </a>
-
-            <h1 className=" font-bold mb-2 ml-1 text-2xl font-maison max-sm:text-xl">
-              AI Voice Assistant
-            </h1>
-            <p className="text-sm my-6 mb-2 ml-1 w-10/12 font-semibold">
-              This project aims to develop an AI voice assistant using ChatGPT
-              API that recognizes natural language, performs tasks, and
-              interfaces with other applications. Through machine learning, it
-              will continually improve its ability to process user voice prompts
-              and provide relevant answers through text or voice replies,
-              offering an intuitive and personalized user experience.
-            </p>
-            <div className="grid grid-cols-8 my-5 mb-1 ml-1 font-bold py-3">
-              <Image
-                priority
-                src="/resources/assets/html.png"
-                height={32}
-                width={32}
-                alt="HTML"
-                className="drop-shadow"
-              />
-              <Image
-                priority
-                src="/resources/assets/js.png"
-                height={32}
-                width={32}
-                alt="JavaScript"
-                className="drop-shadow"
-              />
-              <Image
-                priority
-                src="/resources/assets/css.svg"
-                height={32}
-                width={32}
-                alt="CSS"
-                className="drop-shadow"
-              />
-            </div>
-          </div>
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
-              height={40}
-              width={40}
-              alt="folder icon"
-              className="mb-4 ml-1 "
-            />
-            <a href="https://github.com/theqasim/AI-Detect" target="_blank">
-              <Image
-                src="/resources/assets/newtab.png"
-                height={40}
-                width={40}
-                className="absolute top-3 right-0 mt-1 mr-4"
-                alt="Project Source"
-              />
-            </a>
-
-            <h1 className=" font-bold mb-2 ml-1 text-2xl font-maison max-sm:text-xl">
-              AI Content Detector
-            </h1>
-            <p className="text-sm my-6 mb-2 ml-1 w-10/12 font-semibold">
-              This advanced AI content detection tool is designed to accurately
-              determine the probability that the analyzed content is generated
-              by artificial intelligence using sophisticated machine learning
-              algorithms. The tool generates a unique percentage value that
-              indicates the level of authenticity for the content.
-            </p>
-            <div className="grid grid-cols-8 my-5 mb-1 ml-1 font-bold py-3">
-              <Image
-                priority
-                src="/resources/assets/nextjs.svg"
-                height={32}
-                width={32}
-                alt="Nextjs"
-                className="drop-shadow"
-              />
-              <Image
-                priority
-                src="/resources/assets/tailwindcss.svg"
-                height={32}
-                width={32}
-                alt="typescript"
-                className=" drop-shadow"
-              />
-              <Image
-                priority
-                src="/resources/assets/ts.png"
-                height={32}
-                width={32}
-                alt="typescript"
-                className=" drop-shadow"
-              />
-            </div>
-          </div>
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
-              priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"
@@ -186,7 +73,7 @@ const ProjectsList = () => {
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"
@@ -240,7 +127,7 @@ const ProjectsList = () => {
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"
@@ -300,7 +187,7 @@ const ProjectsList = () => {
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"
@@ -353,7 +240,7 @@ const ProjectsList = () => {
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"
@@ -409,7 +296,7 @@ const ProjectsList = () => {
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"
@@ -457,7 +344,7 @@ const ProjectsList = () => {
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"
@@ -504,7 +391,7 @@ const ProjectsList = () => {
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"
@@ -542,7 +429,7 @@ const ProjectsList = () => {
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
           <Image
               priority
-              src="./resources/assets/folder.png"
+              src="/resources/assets/folder.png"
               height={40}
               width={40}
               alt="folder icon"

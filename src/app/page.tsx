@@ -7,10 +7,8 @@ import ContactForm from "../components/ContactForm";
 import Buttonsec from "@/components/ButtonSec";
 import ProjectsList from "@/components/ProjectsList";
 import FeaturedProjects from "@/components/FeaturedProjects";
-
 import LangAndSkills from "@/components/Lang&Skills";
 
-import "animate.css";
 
 const Home: NextPage = () => {
   return (

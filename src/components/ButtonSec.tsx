@@ -4,7 +4,7 @@ const ButtonSec = () => {
   return (
     <div className="flex justify-center gap-3 ">
       <a
-        href="/resources/Qasim-CV.pdf"
+        href="/resources/assets/Qasim-CV.pdf"
         target="_blank"
         className="relative inline-block text-lg group "
       >

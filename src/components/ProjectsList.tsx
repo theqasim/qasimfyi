@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import ShowMore from "./ShowMore";
 
-
 function handleClick() {
   const hiddenProjectsDiv = document.getElementById("hidden-projects");
   const showMoreButtonContainer = document.getElementById("button-container");
@@ -25,7 +24,7 @@ const ProjectsList = () => {
         </h1>
         <div className="grid grid-cols-2 gap-4 py-3 max-md:grid-cols-1 md:place-items-center max-sm:grid-cols-1 max-sm:place-items-center mb-4">
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -71,7 +70,7 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -125,7 +124,7 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -185,7 +184,7 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -238,7 +237,7 @@ const ProjectsList = () => {
           className="grid grid-cols-2 gap-4 py-3 max-md:grid-cols-1 md:place-items-center max-sm:grid-cols-1 max-sm:place-items-center mb-4 hidden"
         >
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -294,7 +293,7 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -342,7 +341,7 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -389,7 +388,7 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -405,7 +404,8 @@ const ProjectsList = () => {
               A Prime Hydration tracker that provides real-time notifications to
               the user, alerting them within a fraction of a second when any
               flavor becomes available, and providing a direct checkout URL,
-              enabling the product to be instantly added to the user&apos;s basket.
+              enabling the product to be instantly added to the user&apos;s
+              basket.
             </p>
             <div className="grid grid-cols-8 my-5 mb-1 ml-1 font-bold py-3">
               <Image
@@ -427,7 +427,7 @@ const ProjectsList = () => {
             </div>
           </div>
           <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
-          <Image
+            <Image
               priority
               src="/resources/assets/folder.png"
               height={40}
@@ -442,8 +442,8 @@ const ProjectsList = () => {
             <p className="text-sm my-6 mb-2 ml-1 w-10/12 font-semibold">
               Developed an advanced application that enables users to input a
               search term, and receive a curated list of optimized YouTube video
-              tags, with the aim of enhancing their video&apos;s SEO performance,
-              thereby ensuring maximum reach and visibility.{" "}
+              tags, with the aim of enhancing their video&apos;s SEO
+              performance, thereby ensuring maximum reach and visibility.{" "}
             </p>
             <div className="grid grid-cols-8 my-5 mb-1 ml-1 font-bold py-3">
               <Image

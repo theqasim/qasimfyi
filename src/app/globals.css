@@ -2,39 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-    font-family: "mons";
-    src: url("../../public/resources/fonts/Montserrat-Bold.ttf");
+  font-family: "mons";
+  src: url("../../public/resources/fonts/Montserrat-Bold.ttf");
 }
 
 @font-face {
-    font-family: "Maison Neue Extended Extra Bold";
-    src: url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.eot");
-    /* IE9*/
-    src: /* IE6-IE8 */
-    url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.woff2") format("woff2"), /* chrome、firefox */
-    url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.woff") format("woff"), /* chrome、firefox */
-    url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.svg#Maison Neue Extended Extra Bold") format("svg");
-    /* iOS 4.1- */
+  font-family: "Maison Neue Extended Extra Bold";
+  src: url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.eot");
+  /* IE9*/
+  src: /* IE6-IE8 */
+    url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("../../public/resources/fonts/a6a787f8616df7d0847ed764ff81d724.svg#Maison Neue Extended Extra Bold")
+      format("svg");
+  /* iOS 4.1- */
 }
 
 @font-face {
-    font-family: "mono";
-    src: url("../../public/resources/fonts/SFMonoRegular.otf");
+  font-family: "mono";
+  src: url("../../public/resources/fonts/SFMonoRegular.otf");
 }
 
 .underline-effect {
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size 150ms ease-in;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 150ms ease-in;
 }
 
 .underline-effect:hover {
-    background-size: 100% 2px;
+  background-size: 100% 2px;
 }
-
 
 /* .wave {
     @keyframes wave {

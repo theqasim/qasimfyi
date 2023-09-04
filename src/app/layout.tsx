@@ -36,7 +36,7 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta
           property="og:image:secure_url"
-          content="https://qasim.fyi/resources/images/og.png"
+          content="https://qasim.fyi/resources/images/portfolio-preview.png"
         />
         <meta property="og:url" content="https://qasim.fyi" />
         <meta property="og:description" content="" />

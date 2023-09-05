@@ -11,7 +11,7 @@ const FeaturedProjects: React.FC = () => {
         "A web application that initially generates a customized workout plan based on user inputs such as gender, fitness goals, and target muscle groups. After creating the plan, the app provides an interactive AI coach through a chatbot interface to guide users in achieving their workout goals.",
       smallText: "NextJS  TypeScript  Tailwind CSS",
       githubUrl: "https://github.com/theqasim/aifitness",
-      newTabUrl: "https://newtab1.com",
+      newTabUrl: "https://aifitness-eight.vercel.app",
     },
     {
       url: "/resources/assets/aicontentdetectionproject.png",

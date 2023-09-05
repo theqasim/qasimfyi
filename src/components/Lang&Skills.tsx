@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const LangAndSkills = () => {
   return (
-    <div>
+    <div className="">
       <h1 className="text-4xl font-bold mb-4">
         <a className="text-black hover:text-black transition-all duration-500 ease-in-out border-b-4 border-transparent hover:border-black text-black font-maison">
           Languages & Skills
         </a>
       </h1>
-      <p className="text-xl text-black ">
+      <p className="text-xl text-black">
         My skillset is spans across multiple niches, such as content creation,
         SEO & development.
       </p>

@@ -36,15 +36,15 @@ const FeaturedProjects: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col space-y-12 justify-center items-center mb-14 mt-8">
+    <div className="flex flex-col space-y-12 justify-center items-center mb-14 mt-8 w-full">
       <h1 className="text-4xl font-bold self-start">
-        <a className="text-black transition-all duration-500 ease-in-out border-b-4 border-transparent hover:border-black font-maison">
+        <a className="text-black transition-all duration-500ease-in-out border-b-4 border-transparent hover:border-black font-maison">
           Featured Projects
         </a>
       </h1>
       {featuredProjects.map((item, index) => (
         <div
-          className="relative w-[550px] h-[320px] transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg hover:drop-shadow-2xl"
+          className="relative w-full md:w-[550px] h-[400px] md:h-[320px] transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg hover:drop-shadow-2xl"
           key={index}
         >
           <Image
@@ -52,10 +52,10 @@ const FeaturedProjects: React.FC = () => {
             alt={item.title}
             width={550}
             height={380}
-            className="object-cover"
+            className="object-cover h-full"
           />
           <div className="absolute inset-0 w-4/5 h-full flex flex-col justify-start items-start p-4 ml-6 mt-12">
-            <h3 className="text-white font-bold text-lg mb-5 font-maison">
+            <h3 className="text-white font-bold text-lg md:mb-5 mb-2 font-maison">
               <a
                 href={item.link}
                 target="_blank"
@@ -65,7 +65,9 @@ const FeaturedProjects: React.FC = () => {
                 {item.title}
               </a>
             </h3>
-            <p className="text-white text-sm mb-8">{item.description}</p>
+            <p className="text-white text-sm mb-4 md:mb-8">
+              {item.description}
+            </p>
             <small className="text-white text-xs font-mono">
               {item.smallText}
             </small>

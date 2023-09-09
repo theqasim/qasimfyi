@@ -10,8 +10,8 @@ const LangAndSkills = () => {
         </a>
       </h1>
       <p className="text-xl text-black">
-        My skillset is spans across multiple niches, such as content creation,
-        SEO & development.
+        My skillset spans across multiple niches, such as content creation, SEO
+        & development.
       </p>
 
       <div className="grid grid-cols-4 gap-4 py-3 text-black">

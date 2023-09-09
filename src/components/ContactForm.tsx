@@ -1,15 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 const ContactForm = () => {
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const handleSubmit = (e: { preventDefault: () => void }) => {
-    e.preventDefault();
-    console.log("Email:", email);
-    console.log("Message:", message);
-  };
-
   return (
     <section className="bg-black dark:bg-primary rounded-md mt-8">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md drop-shadow-lg ">

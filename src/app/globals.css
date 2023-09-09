@@ -30,6 +30,11 @@
   src: url("../../public/resources/fonts/SFMonoRegular.otf");
 }
 
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
 .underline-effect {
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -40,4 +45,17 @@
 
 .underline-effect:hover {
   background-size: 100% 2px;
+}
+
+.fade-in-long {
+  animation: fadeInLong 1.5s forwards;
+}
+
+@keyframes fadeInLong {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

@@ -1,13 +1,12 @@
 "use client";
-
 import type { NextPage } from "next";
 import Head from "next/head";
 import { useState, useEffect } from "react";
 import ContactForm from "../components/ContactForm";
 import Buttonsec from "@/components/ButtonSec";
 import ProjectsList from "@/components/ProjectsList";
-import FeaturedProjects from "@/components/FeaturedProjects";
 import LangAndSkills from "@/components/Lang&Skills";
+import HiglightedProjects from "@/components/higlightedProjects";
 import Typewriter from "typewriter-effect";
 
 const Home: NextPage = () => {
@@ -57,7 +56,7 @@ const Home: NextPage = () => {
           <section className="flex flex-col justify-start items-center py-4 text-white md:flex-row md:justify-center md:items-center text-black">
             <div>
               <LangAndSkills />
-              <FeaturedProjects />
+              <HiglightedProjects />
               <ProjectsList />
               <div id="contact">
                 <ContactForm />

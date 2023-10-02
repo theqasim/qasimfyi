@@ -1,4 +1,3 @@
-// components/Portfolio.js
 import Image from "next/image";
 
 interface ProjectCardProps {
@@ -65,6 +64,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 const featuredProjects = [
   {
     url: "/resources/assets/aifitness.png",
+    title: "Web Wealth",
+    description:
+      "A platform that takes member sign ups to an exclusive content platform. Information is stored in a database, and the content on the website is protected via OAUTH ensuring members are part of the Discord community before gaining access. The OATUH is provided through the use of NextAuth.",
+    smallText: "NextJS  TypeScript  Tailwind CSS MongoDB NextAuth",
+    githubUrl: "https://github.com/theqasim/WW",
+    newTabUrl: "https://qasim.biz",
+  },
+  {
+    url: "/resources/assets/aifitness.png",
     title: "AIFitness",
     description:
       "A web application that initially generates a customized workout plan based on user inputs such as gender, fitness goals, and target muscle groups. After creating the plan, the app provides an interactive AI coach through a chatbot interface to guide users in achieving their workout goals.",
@@ -96,10 +104,10 @@ function HighlightedProjects() {
   return (
     <div className="space-y-10">
       {" "}
-      {/* Adjusted from space-y-4 to space-y-8 for more space between projects */}
+      {}
       <h1 className="text-4xl font-bold self-start mb-12 mt-4">
         {" "}
-        {/* Added mb-8 for more space below the title */}
+        {}
         <a className="text-black transition-all duration-500 ease-in-out border-b-4 border-transparent hover:border-black font-maison">
           Featured Projects
         </a>

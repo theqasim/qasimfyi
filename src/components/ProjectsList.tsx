@@ -23,7 +23,7 @@ const ProjectsList = () => {
           </a>
         </h1>
         <div className="grid grid-cols-2 gap-4 py-3 max-md:grid-cols-1 md:place-items-center max-sm:grid-cols-1 max-sm:place-items-center mb-4">
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
+          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <Image
               priority
               src="/resources/assets/folder.png"
@@ -69,7 +69,7 @@ const ProjectsList = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
+          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <Image
               priority
               src="/resources/assets/folder.png"
@@ -123,7 +123,7 @@ const ProjectsList = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
+          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <Image
               priority
               src="/resources/assets/folder.png"
@@ -183,7 +183,7 @@ const ProjectsList = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
+          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <Image
               priority
               src="/resources/assets/folder.png"
@@ -236,7 +236,7 @@ const ProjectsList = () => {
           id="hidden-projects"
           className="grid grid-cols-2 gap-4 py-3 max-md:grid-cols-1 md:place-items-center max-sm:grid-cols-1 max-sm:place-items-center mb-4 hidden"
         >
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
+          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <Image
               priority
               src="/resources/assets/folder.png"
@@ -292,7 +292,7 @@ const ProjectsList = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
+          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <Image
               priority
               src="/resources/assets/folder.png"
@@ -340,7 +340,7 @@ const ProjectsList = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
+          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <Image
               priority
               src="/resources/assets/folder.png"
@@ -387,7 +387,7 @@ const ProjectsList = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative drop-shadow-lg">
+          <div className="text-black bg-white rounded-lg p-4 h-70 w-96 transition ease-in-out delay-120 hover:-translate-y-2 duration-300 relative shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <Image
               priority
               src="/resources/assets/folder.png"

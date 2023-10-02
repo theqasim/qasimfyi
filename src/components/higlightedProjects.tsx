@@ -63,7 +63,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
 const featuredProjects = [
   {
-    url: "/resources/assets/aifitness.png",
+    url: "/resources/assets/wwlogo.png",
     title: "Web Wealth",
     description:
       "A platform that takes member sign ups to an exclusive content platform. Information is stored in a database, and the content on the website is protected via OAUTH ensuring members are part of the Discord community before gaining access. The OATUH is provided through the use of NextAuth.",

@@ -398,7 +398,7 @@ const ProjectsList = () => {
             />
 
             <h1 className=" font-bold mb-2 ml-1 text-2xl font-maison max-sm:text-xl">
-              Prime Hydration Tracker
+              Prime Hydration Trackerr
             </h1>
             <p className="text-sm my-6 mb-2 ml-1 w-10/12 font-semibold">
               A Prime Hydration tracker that provides real-time notifications to

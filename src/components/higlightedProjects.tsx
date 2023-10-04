@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   newTabUrl,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]  overflow-hidden mx-auto md:max-w-2xl hover:-translate-y-2 duration-300">
+    <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] hover:scale-105 transform transition-all duration-300 overflow-hidden mx-auto md:max-w-2xl ">
       <div className="flex-shrink-0 w-full md:w-1/3 flex items-center justify-center ">
         <div className="relative">
           <a href={newTabUrl} target="_blank" rel="noopener noreferrer">

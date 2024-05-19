@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <Image
               src={url}
               alt={title}
-              width={150}
+              width={200}
               height={150}
               objectFit="cover"
             />
@@ -62,13 +62,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
 const featuredProjects = [
   {
+    url: "/resources/assets/aiyoutube.png",
+    title: "AI YouTube Video Summariser & Chatbot",
+    description:
+      "A web application that summarises YouTube video's providing in depth insights, and trains a chatbot on the content of the video offering an interactive Q&A in seconds! This application was built for my final year university disseratation, which can be found in the resources folder of this project.",
+    smallText: "NextJS  TypeScript  Tailwind CSS",
+    githubUrl: "https://github.com/theqasim/aivideosummarizer",
+    newTabUrl: "https://aivideosummarizer.vercel.app",
+  },
+  {
     url: "/resources/assets/wwclogo.png",
     title: "Web Wealth",
     description:
       "A platform that takes member sign ups to an exclusive content platform. Information is stored in a database, and the content on the website is protected via OAUTH ensuring members are part of the Discord community before gaining access. The OATUH is provided through the use of NextAuth.",
     smallText: "NextJS  TypeScript  Tailwind CSS MongoDB NextAuth",
     githubUrl: "https://github.com/theqasim/WW",
-    newTabUrl: "https://qasim.biz",
+    newTabUrl: "https://www.joinwebwealth.com",
   },
   {
     url: "/resources/assets/aifitness.png",

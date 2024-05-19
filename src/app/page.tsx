@@ -46,7 +46,7 @@ const Home: NextPage = () => {
       </header>
       {showContent && (
         <div className="mx-8 fade-in-long">
-          <p className="md:text-3xl max-sm:text-1xl text-black text-center mb-3 font-mons ">
+          <p className="md:text-3xl max-sm:text-1xl text-black text-center mb-3 font-mons font-bold ">
             Building web-driven enterprises.<br></br> Entrepreneur & Software
             Engineer.
           </p>

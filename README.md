@@ -15,7 +15,7 @@
 - An Entrepreneur & Software Engineer.
 - Building web-driven enterprises.
 - Check out my Personal Website [here](https://www.qasim.fyi)
-- I’m currently open to new opportunities, here is [my resume](https://www.qasim.fyi/resources/Qasim-CV.pdf)
+- I’m currently open to new opportunities, here is [my resume](https://www.qasim.fyi/resources/MQasimCV.pdf)
 
 <br><br>
 
